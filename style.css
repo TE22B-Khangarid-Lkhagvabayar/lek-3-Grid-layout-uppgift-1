@@ -1,0 +1,35 @@
+.grid-box{
+padding: 10px;
+display: grid;
+grid-template-rows: 3fr;
+grid-template-columns: 1fr 4fr;
+} 
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    
+justify-content: space-evenly;
+gap:5px;
+}
+
+.mainTop{
+align-items: center;
+border: 2px solid black;
+}
+.mainMid{
+align-items: center;
+border: 2px solid black;
+
+}
+.mainBottom{
+align-items: center;
+border: 2px solid black;
+}
+
+footer{
+    align-items: center;
+}
+
+/* först fr = x andra fr = y*/
